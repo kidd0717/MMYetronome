@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02AFEE6ABCF7DD146AF3FC91 /* libPods-MMYetronome.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A10E241B9595810BCED318F /* libPods-MMYetronome.a */; };
 		ED62F0F01E1A4FF10055813D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED62F0EF1E1A4FF10055813D /* AppDelegate.swift */; };
 		ED62F0F21E1A4FF10055813D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED62F0F11E1A4FF10055813D /* ViewController.swift */; };
 		ED62F0F51E1A4FF10055813D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED62F0F31E1A4FF10055813D /* Main.storyboard */; };
 		ED62F0F71E1A4FF10055813D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED62F0F61E1A4FF10055813D /* Assets.xcassets */; };
 		ED62F0FA1E1A4FF10055813D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED62F0F81E1A4FF10055813D /* LaunchScreen.storyboard */; };
+		ED62F1021E1A5E480055813D /* MMYetronome.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED62F1011E1A5E480055813D /* MMYetronome.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6A10E241B9595810BCED318F /* libPods-MMYetronome.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MMYetronome.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBBA1825984A9A1A6799CD3C /* Pods-MMYetronome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMYetronome.release.xcconfig"; path = "Pods/Target Support Files/Pods-MMYetronome/Pods-MMYetronome.release.xcconfig"; sourceTree = "<group>"; };
 		ED62F0EC1E1A4FF10055813D /* MMYetronome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MMYetronome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED62F0EF1E1A4FF10055813D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED62F0F11E1A4FF10055813D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,8 @@
 		ED62F0F61E1A4FF10055813D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED62F0F91E1A4FF10055813D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED62F0FB1E1A4FF10055813D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED62F1011E1A5E480055813D /* MMYetronome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMYetronome.swift; sourceTree = "<group>"; };
+		F01D1F1DBA0D65D431DB82F0 /* Pods-MMYetronome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMYetronome.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MMYetronome/Pods-MMYetronome.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02AFEE6ABCF7DD146AF3FC91 /* libPods-MMYetronome.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		97629992AB1C0064AC35F8EC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F01D1F1DBA0D65D431DB82F0 /* Pods-MMYetronome.debug.xcconfig */,
+				DBBA1825984A9A1A6799CD3C /* Pods-MMYetronome.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DC019E14A62503644FA45D1A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A10E241B9595810BCED318F /* libPods-MMYetronome.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		ED62F0E31E1A4FF10055813D = {
 			isa = PBXGroup;
 			children = (
 				ED62F0EE1E1A4FF10055813D /* MMYetronome */,
 				ED62F0ED1E1A4FF10055813D /* Products */,
+				97629992AB1C0064AC35F8EC /* Pods */,
+				DC019E14A62503644FA45D1A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +82,7 @@
 			children = (
 				ED62F0EF1E1A4FF10055813D /* AppDelegate.swift */,
 				ED62F0F11E1A4FF10055813D /* ViewController.swift */,
+				ED62F1011E1A5E480055813D /* MMYetronome.swift */,
 				ED62F0F31E1A4FF10055813D /* Main.storyboard */,
 				ED62F0F61E1A4FF10055813D /* Assets.xcassets */,
 				ED62F0F81E1A4FF10055813D /* LaunchScreen.storyboard */,
@@ -71,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ED62F0FE1E1A4FF10055813D /* Build configuration list for PBXNativeTarget "MMYetronome" */;
 			buildPhases = (
+				2290077EACA2281B1874BC9E /* [CP] Check Pods Manifest.lock */,
 				ED62F0E81E1A4FF10055813D /* Sources */,
 				ED62F0E91E1A4FF10055813D /* Frameworks */,
 				ED62F0EA1E1A4FF10055813D /* Resources */,
+				586C8D091104E772AAE803D4 /* [CP] Embed Pods Frameworks */,
+				0C37CF4D6BA3B46AB3DFAA85 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,6 +162,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0C37CF4D6BA3B46AB3DFAA85 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MMYetronome/Pods-MMYetronome-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2290077EACA2281B1874BC9E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		586C8D091104E772AAE803D4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MMYetronome/Pods-MMYetronome-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ED62F0E81E1A4FF10055813D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -139,6 +217,7 @@
 			files = (
 				ED62F0F21E1A4FF10055813D /* ViewController.swift in Sources */,
 				ED62F0F01E1A4FF10055813D /* AppDelegate.swift in Sources */,
+				ED62F1021E1A5E480055813D /* MMYetronome.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,12 +336,13 @@
 		};
 		ED62F0FF1E1A4FF10055813D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F01D1F1DBA0D65D431DB82F0 /* Pods-MMYetronome.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3RF3APL3S4;
 				INFOPLIST_FILE = MMYetronome/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = MMYetronome.MMYetronome;
+				PRODUCT_BUNDLE_IDENTIFIER = MMY.MMYetronome;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -270,12 +350,13 @@
 		};
 		ED62F1001E1A4FF10055813D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBBA1825984A9A1A6799CD3C /* Pods-MMYetronome.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3RF3APL3S4;
 				INFOPLIST_FILE = MMYetronome/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = MMYetronome.MMYetronome;
+				PRODUCT_BUNDLE_IDENTIFIER = MMY.MMYetronome;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -300,6 +381,7 @@
 				ED62F1001E1A4FF10055813D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
