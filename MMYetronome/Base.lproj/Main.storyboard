@@ -42,12 +42,21 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="MMYetronome" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="amy-uY-2De">
+                                <rect key="frame" x="166" y="638" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="GE5-eU-AYe" secondAttribute="trailing" id="AVe-QQ-gBw"/>
                             <constraint firstAttribute="trailingMargin" secondItem="vzm-LN-7F5" secondAttribute="trailing" constant="40" id="D15-1u-V8p"/>
                             <constraint firstItem="GE5-eU-AYe" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="171" id="Lbp-uj-t9K"/>
+                            <constraint firstItem="amy-uY-2De" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="16" id="NsF-RX-8Of"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="amy-uY-2De" secondAttribute="trailing" constant="16" id="Pp2-sA-Qf3"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="amy-uY-2De" secondAttribute="bottom" constant="8" id="Qlb-12-LaR"/>
                             <constraint firstItem="GE5-eU-AYe" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="R4c-PM-N6h"/>
                             <constraint firstItem="vzm-LN-7F5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="40" id="bOu-Ty-CYr"/>
                             <constraint firstItem="vzm-LN-7F5" firstAttribute="top" secondItem="GE5-eU-AYe" secondAttribute="bottom" constant="67" id="tD5-66-SAU"/>
