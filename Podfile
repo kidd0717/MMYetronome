@@ -7,5 +7,7 @@ use_frameworks!
 target 'MMYetronome' do
     pod 'AudioKit', '~> 3.5'
     pod 'ReSwift'
+    pod 'ReSwiftRecorder'
+    pod 'ReSwiftRouter'
 end
 

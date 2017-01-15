@@ -14,15 +14,35 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>ReSwiftRecorder.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>ReSwiftRouter.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>1F25E347350017F67F6E8AACDE36AF3A</key>
+		<key>2895276723A29CDEDA91F7884220EF70</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>FD6558ED807274CDE65750B4DBE12DC8</key>
+		<key>B6AE5FB052B58A3DB12EA6AE423AF929</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B6EFE8D3703C9AA92C489888631F724D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EDA910881BDA9A564BC59099624193E6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
