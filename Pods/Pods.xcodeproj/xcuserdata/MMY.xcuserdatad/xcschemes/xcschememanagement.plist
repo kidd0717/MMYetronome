@@ -9,10 +9,20 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>ReSwift.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>FA873C961C1685D266884FF0B36757CC</key>
+		<key>1F25E347350017F67F6E8AACDE36AF3A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FD6558ED807274CDE65750B4DBE12DC8</key>
 		<dict>
 			<key>primary</key>
 			<true/>

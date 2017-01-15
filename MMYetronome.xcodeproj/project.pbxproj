@@ -7,17 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02AFEE6ABCF7DD146AF3FC91 /* libPods-MMYetronome.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A10E241B9595810BCED318F /* libPods-MMYetronome.a */; };
 		ED62F0F01E1A4FF10055813D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED62F0EF1E1A4FF10055813D /* AppDelegate.swift */; };
 		ED62F0F21E1A4FF10055813D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED62F0F11E1A4FF10055813D /* ViewController.swift */; };
 		ED62F0F51E1A4FF10055813D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED62F0F31E1A4FF10055813D /* Main.storyboard */; };
 		ED62F0F71E1A4FF10055813D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED62F0F61E1A4FF10055813D /* Assets.xcassets */; };
 		ED62F0FA1E1A4FF10055813D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED62F0F81E1A4FF10055813D /* LaunchScreen.storyboard */; };
 		ED62F1021E1A5E480055813D /* MMYetronome.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED62F1011E1A5E480055813D /* MMYetronome.swift */; };
+		FA659B91110A6EB6DBF3BA7B /* Pods_MMYetronome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F96B8FBAFF33BBBE5C102CAA /* Pods_MMYetronome.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6A10E241B9595810BCED318F /* libPods-MMYetronome.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MMYetronome.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBBA1825984A9A1A6799CD3C /* Pods-MMYetronome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMYetronome.release.xcconfig"; path = "Pods/Target Support Files/Pods-MMYetronome/Pods-MMYetronome.release.xcconfig"; sourceTree = "<group>"; };
 		ED62F0EC1E1A4FF10055813D /* MMYetronome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MMYetronome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED62F0EF1E1A4FF10055813D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -28,6 +27,7 @@
 		ED62F0FB1E1A4FF10055813D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED62F1011E1A5E480055813D /* MMYetronome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMYetronome.swift; sourceTree = "<group>"; };
 		F01D1F1DBA0D65D431DB82F0 /* Pods-MMYetronome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMYetronome.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MMYetronome/Pods-MMYetronome.debug.xcconfig"; sourceTree = "<group>"; };
+		F96B8FBAFF33BBBE5C102CAA /* Pods_MMYetronome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MMYetronome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02AFEE6ABCF7DD146AF3FC91 /* libPods-MMYetronome.a in Frameworks */,
+				FA659B91110A6EB6DBF3BA7B /* Pods_MMYetronome.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,7 +54,7 @@
 		DC019E14A62503644FA45D1A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6A10E241B9595810BCED318F /* libPods-MMYetronome.a */,
+				F96B8FBAFF33BBBE5C102CAA /* Pods_MMYetronome.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
