@@ -9,5 +9,6 @@ target 'MMYetronome' do
     pod 'ReSwift'
     pod 'ReSwiftRecorder'
     pod 'ReSwiftRouter'
+    pod 'SWRevealViewController'
 end
 

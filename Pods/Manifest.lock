@@ -5,19 +5,22 @@ PODS:
     - ReSwift (~> 3.0)
   - ReSwiftRouter (0.5.1):
     - ReSwift (~> 3.0.0)
+  - SWRevealViewController (2.3.0)
 
 DEPENDENCIES:
   - AudioKit (~> 3.5)
   - ReSwift
   - ReSwiftRecorder
   - ReSwiftRouter
+  - SWRevealViewController
 
 SPEC CHECKSUMS:
   AudioKit: 775885f735260c25f4f2c3c0601e79ae49900831
   ReSwift: f0255f4b4f2dacd12c5d97d34d13fc5dad6d6371
   ReSwiftRecorder: f37a363425ad61c7ddc2172e14ab7799b6b27483
   ReSwiftRouter: c620138bf94b57c068f789d51c0bd23efc42bf68
+  SWRevealViewController: 6d3fd97f70112fd7cef9de14df4260eacce4c63a
 
-PODFILE CHECKSUM: bc9f23b61f896bdbd7e82b23fcff8fba96979f5e
+PODFILE CHECKSUM: eabf27761298375260e042675e530bdab52d9eab
 
 COCOAPODS: 1.1.1

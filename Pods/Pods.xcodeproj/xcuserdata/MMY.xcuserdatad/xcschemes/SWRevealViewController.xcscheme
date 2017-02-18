@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '3820BECA735E5504C4F890B335B16BA3'
-               BlueprintName = 'ReSwiftRecorder'
+               BlueprintIdentifier = 'C25700314DF2538EACAE4D3A0D8CDAD3'
+               BlueprintName = 'SWRevealViewController'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'ReSwiftRecorder.framework'>
+               BuildableName = 'SWRevealViewController.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
