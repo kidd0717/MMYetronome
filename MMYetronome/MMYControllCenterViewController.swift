@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  MMYControllCenterViewController.swift
 //  MMYetronome
 //
 //  Created by PaoYo Ding on 2017/1/2.
@@ -7,15 +7,16 @@
 //
 
 import UIKit
+import SWRevealViewController
 
-class ViewController: UIViewController {
-
+class MMYControllCenterViewController: UIViewController {
     @IBOutlet weak var frequencyLabel: UILabel!
     @IBOutlet weak var frequencySlider: UISlider!
     @IBOutlet weak var startButton: UIButton!
-    var metronome : MMYetronome?
-    var isStart = false
-    
+    private var metronome : MMYetronome?
+    private var isStart = false
+    private var isSetlistShow = false
+// MARK: - Life Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
         metronome = MMYetronome()
@@ -29,6 +30,8 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    
+// MARK: - Action
     @IBAction func sliderValueDidChange(_ sender: UISlider) {
         metronome?.frequence = Double(sender.value)
         frequencyLabel.text = String(format: "%.0f BPM", frequencySlider.value)
@@ -44,6 +47,9 @@ class ViewController: UIViewController {
             sender.setTitle("Start", for: .normal)
             metronome?.stop()
         }
+    }
+    @IBAction func setlistDidPress(_ sender: UIBarButtonItem) {
+        self.revealViewController()!.rightRevealToggle(animated: true)
     }
 }
 

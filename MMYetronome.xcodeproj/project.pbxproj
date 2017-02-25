@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED578B811E5854EB004BFF32 /* MMYetronomeSetlistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED578B801E5854EB004BFF32 /* MMYetronomeSetlistViewController.swift */; };
 		ED62F0F01E1A4FF10055813D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED62F0EF1E1A4FF10055813D /* AppDelegate.swift */; };
-		ED62F0F21E1A4FF10055813D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED62F0F11E1A4FF10055813D /* ViewController.swift */; };
+		ED62F0F21E1A4FF10055813D /* MMYControllCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED62F0F11E1A4FF10055813D /* MMYControllCenterViewController.swift */; };
 		ED62F0F51E1A4FF10055813D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED62F0F31E1A4FF10055813D /* Main.storyboard */; };
 		ED62F0F71E1A4FF10055813D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED62F0F61E1A4FF10055813D /* Assets.xcassets */; };
 		ED62F0FA1E1A4FF10055813D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED62F0F81E1A4FF10055813D /* LaunchScreen.storyboard */; };
@@ -18,9 +19,10 @@
 
 /* Begin PBXFileReference section */
 		DBBA1825984A9A1A6799CD3C /* Pods-MMYetronome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMYetronome.release.xcconfig"; path = "Pods/Target Support Files/Pods-MMYetronome/Pods-MMYetronome.release.xcconfig"; sourceTree = "<group>"; };
+		ED578B801E5854EB004BFF32 /* MMYetronomeSetlistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMYetronomeSetlistViewController.swift; sourceTree = "<group>"; };
 		ED62F0EC1E1A4FF10055813D /* MMYetronome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MMYetronome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED62F0EF1E1A4FF10055813D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ED62F0F11E1A4FF10055813D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED62F0F11E1A4FF10055813D /* MMYControllCenterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMYControllCenterViewController.swift; sourceTree = "<group>"; };
 		ED62F0F41E1A4FF10055813D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ED62F0F61E1A4FF10055813D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED62F0F91E1A4FF10055813D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -81,7 +83,8 @@
 			isa = PBXGroup;
 			children = (
 				ED62F0EF1E1A4FF10055813D /* AppDelegate.swift */,
-				ED62F0F11E1A4FF10055813D /* ViewController.swift */,
+				ED62F0F11E1A4FF10055813D /* MMYControllCenterViewController.swift */,
+				ED578B801E5854EB004BFF32 /* MMYetronomeSetlistViewController.swift */,
 				ED62F1011E1A5E480055813D /* MMYetronome.swift */,
 				ED62F0F31E1A4FF10055813D /* Main.storyboard */,
 				ED62F0F61E1A4FF10055813D /* Assets.xcassets */,
@@ -215,7 +218,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED62F0F21E1A4FF10055813D /* ViewController.swift in Sources */,
+				ED578B811E5854EB004BFF32 /* MMYetronomeSetlistViewController.swift in Sources */,
+				ED62F0F21E1A4FF10055813D /* MMYControllCenterViewController.swift in Sources */,
 				ED62F0F01E1A4FF10055813D /* AppDelegate.swift in Sources */,
 				ED62F1021E1A5E480055813D /* MMYetronome.swift in Sources */,
 			);

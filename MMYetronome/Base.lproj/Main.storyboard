@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="jM6-et-PUB">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -10,10 +10,26 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Navigation Controller-->
+        <scene sceneID="pk7-aA-MOn">
+            <objects>
+                <navigationController id="I9j-Xt-ITU" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ajd-2H-vsU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Kse-q4-Abi"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oFo-GN-iJm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-64" y="-325"/>
+        </scene>
+        <!--Controll Center View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MMYetronome" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="MMYControllCenterViewController" customModule="MMYetronome" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -37,7 +53,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GE5-eU-AYe">
-                                <rect key="frame" x="16" y="191" width="343" height="60"/>
+                                <rect key="frame" x="16" y="235" width="343" height="60"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -62,6 +78,13 @@
                             <constraint firstItem="vzm-LN-7F5" firstAttribute="top" secondItem="GE5-eU-AYe" secondAttribute="bottom" constant="67" id="tD5-66-SAU"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="Z4Y-ib-b8R">
+                        <barButtonItem key="rightBarButtonItem" systemItem="bookmarks" id="qQf-TV-4r1">
+                            <connections>
+                                <action selector="setlistDidPress:" destination="BYZ-38-t0r" id="eEQ-TM-Bvx"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="frequencyLabel" destination="GE5-eU-AYe" id="gM9-e7-LXh"/>
                         <outlet property="frequencySlider" destination="vzm-LN-7F5" id="1La-h6-fVL"/>
@@ -70,6 +93,39 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="727" y="-325"/>
+        </scene>
+        <!--Reveal View Controller-->
+        <scene sceneID="a9x-YR-J6h">
+            <objects>
+                <viewController id="jM6-et-PUB" customClass="SWRevealViewController" sceneMemberID="viewController">
+                    <connections>
+                        <segue destination="I9j-Xt-ITU" kind="custom" identifier="sw_front" customClass="SWRevealViewControllerSegueSetController" id="XqN-Nd-xll"/>
+                        <segue destination="mCH-7j-TC5" kind="custom" identifier="sw_right" customClass="SWRevealViewControllerSegueSetController" id="WBj-lR-FTh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WR5-uw-uzs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-65" y="404"/>
+        </scene>
+        <!--Yetronome Setlist View Controller-->
+        <scene sceneID="mWy-FF-btH">
+            <objects>
+                <viewController id="mCH-7j-TC5" customClass="MMYetronomeSetlistViewController" customModule="MMYetronome" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Vjf-J1-QL6"/>
+                        <viewControllerLayoutGuide type="bottom" id="ApG-hB-I7c"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="44w-zz-46j">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="jE9-cE-VeQ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YGX-Hi-MjJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="726" y="403"/>
         </scene>
     </scenes>
 </document>
